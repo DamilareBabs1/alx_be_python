@@ -15,4 +15,4 @@ if unit == 'F':
 elif unit == 'C':
     print(f'{temperature}°{unit} is {convert_to_fahrenheit(temperature)}°F')
 else:
-    print(f"Invalid unit, please enter 'C' for Celsius or 'F' for Fahrenheit.")
+    print(f"Invalid temperature. Please enter a numeric value.")
